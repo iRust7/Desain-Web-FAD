@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Saran</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="Index .html">Beranda anda</a>
+            <a href="Profil .html">Profil</a>
+            <a href="Produk .html">Produk</a>
+            <a href="Saran .html">Saran</a>
+        </nav>
+    </header>
+    <main>
+        <h2>Formulir Saran</h2>
+        <form action="submit_saran.php" method="POST">
+            <label for="name">Nama:</label><br>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="message">Saran:</label><br>
+            <textarea id="message" name="message"></textarea><br><br>
+            <button type="submit">Kirim</button>
+        </form>
+    </main>
+</body>
+</html>
