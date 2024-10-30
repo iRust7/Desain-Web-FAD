@@ -35,4 +35,3 @@ Website dapat diakses melalui link berikut: [Preview Website](https://desain-web
 ## License
 
 Proyek ini untuk keperluan tugas kuliah saja.
-](https://github.com/iRust7/Desain-Web-ADI)
